@@ -6,7 +6,7 @@ import '../pages-css/LoginPage.css';
 function LoginPage() {
     return(
         <div className="mainSection">
-             <LoginHero />
+             <LoginHero />  
         </div>
        
         
