@@ -1,0 +1,97 @@
+.form{
+    width: 400px;
+    height: 450px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #202020;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: xxx-large;
+    color: blueviolet;
+}
+
+.form-inputs{
+    display: block;
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin: auto;   
+}
+
+.form-input{
+    width: 325px;
+    font-size: 17px;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 14px 16px;
+    height: 20px;
+}
+
+.form-input:focus{
+    outline: none;
+    border: 2px solid rgb(58, 18, 238);
+    caret-color: rgb(58, 18, 238);
+}
+
+.form-buttons{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+.login-button{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border: 1px solid rgb(58, 18, 238);
+    border-radius: 8px;
+    background-color: rgb(58, 18, 238);
+}
+
+.forgot-password{
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: rgb(58, 18, 238);
+}
+
+.forgot-password:hover{
+text-decoration: underline;
+}
+
+.seperator{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.create-account{
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    background-color: blueviolet;
+}
+
+
